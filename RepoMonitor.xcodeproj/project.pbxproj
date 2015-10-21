@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */; };
+		923D77C21BD8073B00F6FC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* ViewController.swift */; };
+		923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C31BD8073B00F6FC3C /* Assets.xcassets */; };
+		923D77C71BD8073B00F6FC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C51BD8073B00F6FC3C /* Main.storyboard */; };
+		923D77D21BD8073B00F6FC3C /* RepoMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */; };
+		923D77DD1BD8073B00F6FC3C /* RepoMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923D77CE1BD8073B00F6FC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923D77B41BD8073B00F6FC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923D77BB1BD8073B00F6FC3C;
+			remoteInfo = RepoMonitor;
+		};
+		923D77D91BD8073B00F6FC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923D77B41BD8073B00F6FC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923D77BB1BD8073B00F6FC3C;
+			remoteInfo = RepoMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923D77C11BD8073B00F6FC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		923D77C31BD8073B00F6FC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923D77C61BD8073B00F6FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923D77C81BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923D77CD1BD8073B00F6FC3C /* RepoMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMonitorTests.swift; sourceTree = "<group>"; };
+		923D77D31BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923D77D81BD8073B00F6FC3C /* RepoMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMonitorUITests.swift; sourceTree = "<group>"; };
+		923D77DE1BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923D77B91BD8073B00F6FC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77CA1BD8073B00F6FC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77D51BD8073B00F6FC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923D77B31BD8073B00F6FC3C = {
+			isa = PBXGroup;
+			children = (
+				923D77BE1BD8073B00F6FC3C /* RepoMonitor */,
+				923D77D01BD8073B00F6FC3C /* RepoMonitorTests */,
+				923D77DB1BD8073B00F6FC3C /* RepoMonitorUITests */,
+				923D77BD1BD8073B00F6FC3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923D77BD1BD8073B00F6FC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */,
+				923D77CD1BD8073B00F6FC3C /* RepoMonitorTests.xctest */,
+				923D77D81BD8073B00F6FC3C /* RepoMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923D77BE1BD8073B00F6FC3C /* RepoMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */,
+				923D77C11BD8073B00F6FC3C /* ViewController.swift */,
+				923D77C31BD8073B00F6FC3C /* Assets.xcassets */,
+				923D77C51BD8073B00F6FC3C /* Main.storyboard */,
+				923D77C81BD8073B00F6FC3C /* Info.plist */,
+			);
+			path = RepoMonitor;
+			sourceTree = "<group>";
+		};
+		923D77D01BD8073B00F6FC3C /* RepoMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */,
+				923D77D31BD8073B00F6FC3C /* Info.plist */,
+			);
+			path = RepoMonitorTests;
+			sourceTree = "<group>";
+		};
+		923D77DB1BD8073B00F6FC3C /* RepoMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */,
+				923D77DE1BD8073B00F6FC3C /* Info.plist */,
+			);
+			path = RepoMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923D77BB1BD8073B00F6FC3C /* RepoMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923D77E11BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitor" */;
+			buildPhases = (
+				923D77B81BD8073B00F6FC3C /* Sources */,
+				923D77B91BD8073B00F6FC3C /* Frameworks */,
+				923D77BA1BD8073B00F6FC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepoMonitor;
+			productName = RepoMonitor;
+			productReference = 923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923D77CC1BD8073B00F6FC3C /* RepoMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923D77E41BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorTests" */;
+			buildPhases = (
+				923D77C91BD8073B00F6FC3C /* Sources */,
+				923D77CA1BD8073B00F6FC3C /* Frameworks */,
+				923D77CB1BD8073B00F6FC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923D77CF1BD8073B00F6FC3C /* PBXTargetDependency */,
+			);
+			name = RepoMonitorTests;
+			productName = RepoMonitorTests;
+			productReference = 923D77CD1BD8073B00F6FC3C /* RepoMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923D77D71BD8073B00F6FC3C /* RepoMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923D77E71BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorUITests" */;
+			buildPhases = (
+				923D77D41BD8073B00F6FC3C /* Sources */,
+				923D77D51BD8073B00F6FC3C /* Frameworks */,
+				923D77D61BD8073B00F6FC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923D77DA1BD8073B00F6FC3C /* PBXTargetDependency */,
+			);
+			name = RepoMonitorUITests;
+			productName = RepoMonitorUITests;
+			productReference = 923D77D81BD8073B00F6FC3C /* RepoMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923D77B41BD8073B00F6FC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rogier Bom";
+				TargetAttributes = {
+					923D77BB1BD8073B00F6FC3C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					923D77CC1BD8073B00F6FC3C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 923D77BB1BD8073B00F6FC3C;
+					};
+					923D77D71BD8073B00F6FC3C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 923D77BB1BD8073B00F6FC3C;
+					};
+				};
+			};
+			buildConfigurationList = 923D77B71BD8073B00F6FC3C /* Build configuration list for PBXProject "RepoMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923D77B31BD8073B00F6FC3C;
+			productRefGroup = 923D77BD1BD8073B00F6FC3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923D77BB1BD8073B00F6FC3C /* RepoMonitor */,
+				923D77CC1BD8073B00F6FC3C /* RepoMonitorTests */,
+				923D77D71BD8073B00F6FC3C /* RepoMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923D77BA1BD8073B00F6FC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */,
+				923D77C71BD8073B00F6FC3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77CB1BD8073B00F6FC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77D61BD8073B00F6FC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923D77B81BD8073B00F6FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923D77C21BD8073B00F6FC3C /* ViewController.swift in Sources */,
+				923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77C91BD8073B00F6FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923D77D21BD8073B00F6FC3C /* RepoMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D77D41BD8073B00F6FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923D77DD1BD8073B00F6FC3C /* RepoMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923D77CF1BD8073B00F6FC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923D77BB1BD8073B00F6FC3C /* RepoMonitor */;
+			targetProxy = 923D77CE1BD8073B00F6FC3C /* PBXContainerItemProxy */;
+		};
+		923D77DA1BD8073B00F6FC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923D77BB1BD8073B00F6FC3C /* RepoMonitor */;
+			targetProxy = 923D77D91BD8073B00F6FC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923D77C51BD8073B00F6FC3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923D77C61BD8073B00F6FC3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923D77DF1BD8073B00F6FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923D77E01BD8073B00F6FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		923D77E21BD8073B00F6FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		923D77E31BD8073B00F6FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		923D77E51BD8073B00F6FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoMonitor.app/Contents/MacOS/RepoMonitor";
+			};
+			name = Debug;
+		};
+		923D77E61BD8073B00F6FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoMonitor.app/Contents/MacOS/RepoMonitor";
+			};
+			name = Release;
+		};
+		923D77E81BD8073B00F6FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RepoMonitor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		923D77E91BD8073B00F6FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepoMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogierbom.RepoMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RepoMonitor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923D77B71BD8073B00F6FC3C /* Build configuration list for PBXProject "RepoMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923D77DF1BD8073B00F6FC3C /* Debug */,
+				923D77E01BD8073B00F6FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923D77E11BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923D77E21BD8073B00F6FC3C /* Debug */,
+				923D77E31BD8073B00F6FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		923D77E41BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923D77E51BD8073B00F6FC3C /* Debug */,
+				923D77E61BD8073B00F6FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		923D77E71BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923D77E81BD8073B00F6FC3C /* Debug */,
+				923D77E91BD8073B00F6FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923D77B41BD8073B00F6FC3C /* Project object */;
+}
