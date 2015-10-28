@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */; };
-		923D77C21BD8073B00F6FC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* ViewController.swift */; };
+		923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */; };
 		923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C31BD8073B00F6FC3C /* Assets.xcassets */; };
 		923D77C71BD8073B00F6FC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C51BD8073B00F6FC3C /* Main.storyboard */; };
 		923D77D21BD8073B00F6FC3C /* RepoMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */; };
 		923D77DD1BD8073B00F6FC3C /* RepoMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */; };
+		923D77EB1BD809C900F6FC3C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77EA1BD809C900F6FC3C /* Repository.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		923D77C11BD8073B00F6FC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepostitoryTableViewController.swift; sourceTree = "<group>"; };
 		923D77C31BD8073B00F6FC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923D77C61BD8073B00F6FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923D77C81BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		923D77D81BD8073B00F6FC3C /* RepoMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMonitorUITests.swift; sourceTree = "<group>"; };
 		923D77DE1BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923D77EA1BD809C900F6FC3C /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = ../../../RepoMonitor_Old/RepoMonitor/RepoMonitor/Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 		923D77BE1BD8073B00F6FC3C /* RepoMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				923D77EA1BD809C900F6FC3C /* Repository.swift */,
 				923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */,
-				923D77C11BD8073B00F6FC3C /* ViewController.swift */,
+				923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */,
 				923D77C31BD8073B00F6FC3C /* Assets.xcassets */,
 				923D77C51BD8073B00F6FC3C /* Main.storyboard */,
 				923D77C81BD8073B00F6FC3C /* Info.plist */,
@@ -251,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				923D77C21BD8073B00F6FC3C /* ViewController.swift in Sources */,
+				923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */,
 				923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */,
+				923D77EB1BD809C900F6FC3C /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
