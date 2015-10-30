@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92038E131BE3542D00DF7328 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92038E121BE3542D00DF7328 /* RepositoryViewController.swift */; };
 		923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */; };
 		923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */; };
 		923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C31BD8073B00F6FC3C /* Assets.xcassets */; };
 		923D77C71BD8073B00F6FC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C51BD8073B00F6FC3C /* Main.storyboard */; };
 		923D77D21BD8073B00F6FC3C /* RepoMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */; };
 		923D77DD1BD8073B00F6FC3C /* RepoMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */; };
-		923D77EB1BD809C900F6FC3C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77EA1BD809C900F6FC3C /* Repository.swift */; settings = {ASSET_TAGS = (); }; };
+		923D77EB1BD809C900F6FC3C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77EA1BD809C900F6FC3C /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92038E121BE3542D00DF7328 /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 		923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepostitoryTableViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				923D77C31BD8073B00F6FC3C /* Assets.xcassets */,
 				923D77C51BD8073B00F6FC3C /* Main.storyboard */,
 				923D77C81BD8073B00F6FC3C /* Info.plist */,
+				92038E121BE3542D00DF7328 /* RepositoryViewController.swift */,
 			);
 			path = RepoMonitor;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92038E131BE3542D00DF7328 /* RepositoryViewController.swift in Sources */,
 				923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */,
 				923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */,
 				923D77EB1BD809C900F6FC3C /* Repository.swift in Sources */,
@@ -478,6 +482,7 @@
 				923D77E31BD8073B00F6FC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923D77E41BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +491,7 @@
 				923D77E61BD8073B00F6FC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923D77E71BD8073B00F6FC3C /* Build configuration list for PBXNativeTarget "RepoMonitorUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +500,7 @@
 				923D77E91BD8073B00F6FC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

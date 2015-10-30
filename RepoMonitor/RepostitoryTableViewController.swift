@@ -24,9 +24,9 @@ class RepostitoryTableViewController: NSViewController, NSTableViewDataSource, N
         repositoryTableView.setDelegate(self)
         
         let image1 = NSImage.init(byReferencingFile: "dummy")!
-        let repo1 = Repository(statusIcon: image1, label: "zbbestel.trunk.dev", location: "/")
+        let repo1 = Repository(status: "current", label: "zbbestel.trunk.dev", location: "/")
         
-        let repo2 = Repository(statusIcon: image1, label: "maaltijdenbestel.trunk.dev", location: "/")
+        let repo2 = Repository(status: "outdated", label: "maaltijdenbestel.trunk.dev", location: "/")
         
         repositories += [repo1, repo2]
     }
@@ -37,12 +37,13 @@ class RepostitoryTableViewController: NSViewController, NSTableViewDataSource, N
         }
     }
     
-    // MARK: Datasource
+    // MARK: NSTableViewDataSource
     
     func numberOfRowsInTableView(tableView: NSTableView) -> Int {
         return repositories.count
     }
     
+    // MARK: NSTableViewDelegate
     
     func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
         
