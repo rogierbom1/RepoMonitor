@@ -23,8 +23,9 @@ class RepositoryViewController: NSViewController {
     
     @IBAction func saveRepository(sender: NSButton) {
         
-        //let label =
-        //Repository = Repository(status: "new", label: <#T##String#>, location: <#T##String#>)
+        let label = workingCopyLabel.stringValue
+        let location = workingCopyPath.stringValue
+        repository = Repository(status: "new", label: <#T##String#>, location: <#T##String#>)
         
         self.dismissViewController(self)
     }

@@ -99,13 +99,13 @@
 		923D77BE1BD8073B00F6FC3C /* RepoMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				92038E141BE3877600DF7328 /* Repository.swift */,
 				923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */,
-				923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */,
 				923D77C31BD8073B00F6FC3C /* Assets.xcassets */,
-				923D77C51BD8073B00F6FC3C /* Main.storyboard */,
 				923D77C81BD8073B00F6FC3C /* Info.plist */,
+				923D77C51BD8073B00F6FC3C /* Main.storyboard */,
+				92038E141BE3877600DF7328 /* Repository.swift */,
 				92038E121BE3542D00DF7328 /* RepositoryViewController.swift */,
+				923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */,
 			);
 			path = RepoMonitor;
 			sourceTree = "<group>";
