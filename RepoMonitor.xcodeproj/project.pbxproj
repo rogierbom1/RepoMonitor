@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		92038E131BE3542D00DF7328 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92038E121BE3542D00DF7328 /* RepositoryViewController.swift */; };
 		92038E151BE3877600DF7328 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92038E141BE3877600DF7328 /* Repository.swift */; };
+		923A87181BEB821800C866C8 /* Repository.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923A87161BEB821800C866C8 /* Repository.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */; };
 		923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */; };
 		923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C31BD8073B00F6FC3C /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		92038E121BE3542D00DF7328 /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 		92038E141BE3877600DF7328 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		923A87171BEB821800C866C8 /* Repository.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Repository.xcdatamodel; sourceTree = "<group>"; };
 		923D77BC1BD8073B00F6FC3C /* RepoMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepostitoryTableViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				92038E141BE3877600DF7328 /* Repository.swift */,
 				92038E121BE3542D00DF7328 /* RepositoryViewController.swift */,
 				923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */,
+				923A87161BEB821800C866C8 /* Repository.xcdatamodeld */,
 			);
 			path = RepoMonitor;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923A87181BEB821800C866C8 /* Repository.xcdatamodeld in Sources */,
 				92038E131BE3542D00DF7328 /* RepositoryViewController.swift in Sources */,
 				923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */,
 				923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */,
@@ -503,6 +507,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		923A87161BEB821800C866C8 /* Repository.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				923A87171BEB821800C866C8 /* Repository.xcdatamodel */,
+			);
+			currentVersion = 923A87171BEB821800C866C8 /* Repository.xcdatamodel */;
+			path = Repository.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 923D77B41BD8073B00F6FC3C /* Project object */;
 }
