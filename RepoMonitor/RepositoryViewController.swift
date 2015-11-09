@@ -25,7 +25,8 @@ class RepositoryViewController: NSViewController {
         
         let label = workingCopyLabel.stringValue
         let location = workingCopyPath.stringValue
-        repository = Repository(status: "new", label: <#T##String#>, location: <#T##String#>)
+        let repository = Repository(status: "new", label: label, location: location)
+        
         
         self.dismissViewController(self)
     }

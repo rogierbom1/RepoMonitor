@@ -734,7 +734,7 @@
                                 </clipView>
                                 <animations/>
                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="aiZ-i3-p0m">
-                                    <rect key="frame" x="1" y="210" width="408" height="16"/>
+                                    <rect key="frame" x="1" y="-15" width="0.0" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </scroller>
@@ -845,7 +845,7 @@ Gw
                 </viewController>
                 <customObject id="xnW-aB-B3k" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="1233"/>
+            <point key="canvasLocation" x="75" y="1225"/>
         </scene>
     </scenes>
     <resources>
