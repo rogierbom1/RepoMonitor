@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		92038E131BE3542D00DF7328 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92038E121BE3542D00DF7328 /* RepositoryViewController.swift */; };
 		92038E151BE3877600DF7328 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92038E141BE3877600DF7328 /* Repository.swift */; };
-		923A87181BEB821800C866C8 /* Repository.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923A87161BEB821800C866C8 /* Repository.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		923A87181BEB821800C866C8 /* Repository.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923A87161BEB821800C866C8 /* Repository.xcdatamodeld */; };
 		923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77BF1BD8073B00F6FC3C /* AppDelegate.swift */; };
 		923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */; };
 		923D77C41BD8073B00F6FC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C31BD8073B00F6FC3C /* Assets.xcassets */; };
 		923D77C71BD8073B00F6FC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923D77C51BD8073B00F6FC3C /* Main.storyboard */; };
 		923D77D21BD8073B00F6FC3C /* RepoMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77D11BD8073B00F6FC3C /* RepoMonitorTests.swift */; };
 		923D77DD1BD8073B00F6FC3C /* RepoMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */; };
+		92DC06E51BF1D3BD0036C5F6 /* RepositoryMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC06E41BF1D3BD0036C5F6 /* RepositoryMO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		923D77D81BD8073B00F6FC3C /* RepoMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D77DC1BD8073B00F6FC3C /* RepoMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMonitorUITests.swift; sourceTree = "<group>"; };
 		923D77DE1BD8073B00F6FC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC06E41BF1D3BD0036C5F6 /* RepositoryMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryMO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				92038E121BE3542D00DF7328 /* RepositoryViewController.swift */,
 				923D77C11BD8073B00F6FC3C /* RepostitoryTableViewController.swift */,
 				923A87161BEB821800C866C8 /* Repository.xcdatamodeld */,
+				92DC06E41BF1D3BD0036C5F6 /* RepositoryMO.swift */,
 			);
 			path = RepoMonitor;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				923D77C21BD8073B00F6FC3C /* RepostitoryTableViewController.swift in Sources */,
 				923D77C01BD8073B00F6FC3C /* AppDelegate.swift in Sources */,
 				92038E151BE3877600DF7328 /* Repository.swift in Sources */,
+				92DC06E51BF1D3BD0036C5F6 /* RepositoryMO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

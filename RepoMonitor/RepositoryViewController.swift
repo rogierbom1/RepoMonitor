@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import CoreData
 
 class RepositoryViewController: NSViewController {
 
@@ -17,6 +18,26 @@ class RepositoryViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+        
+    }
+    
+    private lazy var managedObjectContext: NSManagedObjectContext = {
+        let moc = NSManagedObjectContext(concurrencyType: .MainQueueConcurrencyType)
+        
+        //moc.persistentStoreCoordinator = CoreDataStackManager.
+        
+        return moc
+    }()
+    
+    private func reloadTableView() {
+        let fetchRequest = NSFetchRequest(entityName: "Repository")
+        do {
+            repositories = try managedObjectContext.executeFetchRequest(fetchRequest) as! [Repository]
+        }
+        catch {
+            
+        }
     }
     
     // MARK: IBActions
@@ -25,7 +46,7 @@ class RepositoryViewController: NSViewController {
         
         let label = workingCopyLabel.stringValue
         let location = workingCopyPath.stringValue
-        let repository = Repository(status: "new", label: label, location: location)
+        //let repository = NSEntityDescription.insertNewObjectForEntityForName("Repostitory", inManagedObjectContext: self)
         
         
         self.dismissViewController(self)
